@@ -22,5 +22,5 @@ if __name__ == '__main__':
         msg = Message(subject="Realisation",
                       sender=app.config.get("MAIL_USERNAME"),
                       recipients=["ankitpandeycu@gmail.com"], # use your email for testing
-                      body="This is a test email I sent with Gmail and Python! But bhai pyaar toh aaj bhi hai dil mei kahi na kahi uske liye...")
+                      body="This is a test email I sent with Gmail and Python!")
         mail.send(msg)
